@@ -33,31 +33,31 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="112.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Track: Currently Unavailable" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="69v-TW-YhU">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Track: Currently Unavailable" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="69v-TW-YhU">
                                                     <rect key="frame" x="23" y="19" width="218" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="pwC-5r-ZtU"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist: Currently Unavailable" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WuQ-we-6pJ">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist: Currently Unavailable" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WuQ-we-6pJ">
                                                     <rect key="frame" x="23" y="45" width="218" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="gY0-cb-4fP"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Album: Currently Unavailable" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4k3-Ay-r7k">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Album: Currently Unavailable" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4k3-Ay-r7k">
                                                     <rect key="frame" x="23" y="71" width="218" height="21.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21.5" id="haS-Xz-DrK"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VXi-wu-EPw">
@@ -136,25 +136,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Track: Currently Unavailable" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URC-9a-Iq1">
-                                <rect key="frame" x="39" y="91" width="199.5" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Track: Currently Unavailable" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URC-9a-Iq1">
+                                <rect key="frame" x="39" y="82" width="199.5" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="t3v-yH-lQs"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist: Currently Unavailable" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cri-pj-FP6">
-                                <rect key="frame" x="39" y="117" width="199.5" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist: Currently Unavailable" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cri-pj-FP6">
+                                <rect key="frame" x="39" y="108" width="199.5" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Album: Currently Unavailable" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oSN-tc-Mso">
-                                <rect key="frame" x="39" y="143" width="199.5" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Album: Currently Unavailable" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oSN-tc-Mso">
+                                <rect key="frame" x="39" y="134" width="199.5" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Ok-gr-otn">
@@ -183,13 +183,14 @@
                                 </constraints>
                             </view>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="No lyrics currently available" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9ES-ES-23f">
-                                <rect key="frame" x="39" y="209" width="297" height="373"/>
+                                <rect key="frame" x="39" y="195" width="297" height="387"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MQT-Bd-K7s">
-                                <rect key="frame" x="256" y="87" width="80" height="80"/>
+                                <rect key="frame" x="256" y="80" width="80" height="80"/>
                                 <color key="backgroundColor" red="0.78808718919754028" green="0.78791451454162598" blue="0.80853986740112305" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="3j1-QV-0hF"/>
@@ -203,7 +204,7 @@
                                     <constraint firstAttribute="height" constant="45" id="4eE-Gy-GvQ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-                                <state key="normal" title="Get Complete Lyrics">
+                                <state key="normal" title="Find Complete Lyrics">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -211,7 +212,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4J5-XQ-BWj" userLabel="lineView">
-                                <rect key="frame" x="26" y="207.5" width="323" height="0.5"/>
+                                <rect key="frame" x="26" y="193.5" width="323" height="0.5"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="0.5" id="5wz-yT-24F"/>
@@ -220,7 +221,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="URC-9a-Iq1" firstAttribute="top" secondItem="2Ok-gr-otn" secondAttribute="bottom" constant="46" id="15o-zB-e7E"/>
+                            <constraint firstItem="URC-9a-Iq1" firstAttribute="top" secondItem="2Ok-gr-otn" secondAttribute="bottom" constant="37" id="15o-zB-e7E"/>
                             <constraint firstItem="oSN-tc-Mso" firstAttribute="height" secondItem="Cri-pj-FP6" secondAttribute="height" id="1fq-j0-wz0"/>
                             <constraint firstItem="ByM-kM-EpT" firstAttribute="top" secondItem="9ES-ES-23f" secondAttribute="bottom" constant="1" id="3ec-L2-2pp"/>
                             <constraint firstItem="f09-1e-u3x" firstAttribute="top" secondItem="9ES-ES-23f" secondAttribute="bottom" constant="85" id="4Bn-wC-twe"/>
@@ -236,13 +237,13 @@
                             <constraint firstItem="ByM-kM-EpT" firstAttribute="leading" secondItem="9ES-ES-23f" secondAttribute="leading" id="T0j-ks-bPj"/>
                             <constraint firstItem="9ES-ES-23f" firstAttribute="leading" secondItem="XjH-i9-uEN" secondAttribute="leadingMargin" constant="23" id="Uma-TM-oBp"/>
                             <constraint firstItem="Cri-pj-FP6" firstAttribute="height" secondItem="URC-9a-Iq1" secondAttribute="height" id="ZLm-7P-HTf"/>
-                            <constraint firstItem="MQT-Bd-K7s" firstAttribute="top" secondItem="2Ok-gr-otn" secondAttribute="bottom" constant="42" id="a3c-7j-hvJ"/>
+                            <constraint firstItem="MQT-Bd-K7s" firstAttribute="top" secondItem="2Ok-gr-otn" secondAttribute="bottom" constant="35" id="a3c-7j-hvJ"/>
                             <constraint firstItem="MQT-Bd-K7s" firstAttribute="leading" secondItem="URC-9a-Iq1" secondAttribute="trailing" constant="17.5" id="aqQ-Cs-dZk"/>
                             <constraint firstItem="oSN-tc-Mso" firstAttribute="top" secondItem="Cri-pj-FP6" secondAttribute="bottom" constant="5" id="blG-51-En7"/>
                             <constraint firstItem="4J5-XQ-BWj" firstAttribute="leading" secondItem="oSN-tc-Mso" secondAttribute="leading" constant="-13" id="bt7-Kl-b1r"/>
                             <constraint firstItem="2Ok-gr-otn" firstAttribute="leading" secondItem="XjH-i9-uEN" secondAttribute="leading" id="ljb-x4-eJm"/>
                             <constraint firstItem="URC-9a-Iq1" firstAttribute="leading" secondItem="XjH-i9-uEN" secondAttribute="leadingMargin" constant="23" id="rTl-16-lml"/>
-                            <constraint firstItem="9ES-ES-23f" firstAttribute="top" secondItem="MQT-Bd-K7s" secondAttribute="bottom" constant="42" id="reo-4g-dZJ"/>
+                            <constraint firstItem="9ES-ES-23f" firstAttribute="top" secondItem="MQT-Bd-K7s" secondAttribute="bottom" constant="35" id="reo-4g-dZJ"/>
                             <constraint firstItem="Cri-pj-FP6" firstAttribute="trailing" secondItem="URC-9a-Iq1" secondAttribute="trailing" id="uEH-5L-TcK"/>
                             <constraint firstItem="ByM-kM-EpT" firstAttribute="width" secondItem="9ES-ES-23f" secondAttribute="width" id="v2k-tq-ikA"/>
                             <constraint firstItem="Cri-pj-FP6" firstAttribute="top" secondItem="URC-9a-Iq1" secondAttribute="bottom" constant="5" id="x3m-Ch-VVU"/>
@@ -315,7 +316,7 @@
                                     <constraint firstAttribute="width" constant="150" id="xdr-vZ-2eE"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>

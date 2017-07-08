@@ -9,7 +9,6 @@
 import UIKit
 import Alamofire
 
-
 class ResultsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate, UITextFieldDelegate {
 
     @IBOutlet weak var sb: UISearchBar!
@@ -26,8 +25,7 @@ class ResultsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, U
         sb.delegate = self
         tv.delegate = self
         tv.dataSource = self
-    } 
-   
+    }
     
     func parseData(jsonData: [String: AnyObject]) {
         self.results = [Result]()
@@ -63,9 +61,6 @@ class ResultsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, U
                 }
     }
     
-    
-    
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "ResultsVCtoResultDetailsVC-Segue" {
             guard let vc = segue.destination as? ResultDetailsVC else { return }
@@ -74,10 +69,7 @@ class ResultsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, U
             }
         }
     }
-
-    
-    
-    
+  
     // MARK: - Search Bar Delegate
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
@@ -96,15 +88,12 @@ class ResultsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, U
         self.view.endEditing(true)
     }
     
-    
     func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
         if sb.text == "" {
             results!.removeAll()
             tv.reloadData()
         }
     }
-    
-    
     
     // MARK: - Table View Delegate
     
@@ -120,25 +109,16 @@ class ResultsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, U
         return cell
     }
     
-    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
        index = indexPath.row
        tableView.deselectRow(at: indexPath, animated: true)
        self.performSegue(withIdentifier: "ResultsVCtoResultDetailsVC-Segue", sender: self)
-        
     }
-    
     
     func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
         self.view.endEditing(true)
         
     }
     
-    
-    
-    
-    
-    
-
 }
 

@@ -25,24 +25,21 @@ class ResultDetailsVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.modifyViews()
         guard let resultObject = result else { return }
         
         albumImage.image = resultObject.mainImage
-        trackLabel.text = resultObject.song
-        artistLabel.text = resultObject.artist
-        albumLabel.text = resultObject.album
+        trackLabel.text = "Track: \(resultObject.song)"
+        artistLabel.text = "Artist: \(resultObject.artist)"
+        albumLabel.text = "Album: \(resultObject.album)"
         
         var searchParameter = "func=getSong&artist=\(resultObject.artist)&song=\(resultObject.song)&fmt=json"
         searchParameter = searchParameter.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!
         lyricsURL = "http://lyrics.wikia.com/api.php?\(searchParameter)"
         
         self.callDataManager(lyricsURL)
-        self.modifyViewOfCompleteLyricsButton()
     }
-    
-    
-    
+ 
     func callDataManager(_ lyricsURL: String) {
         
         DataManager.makeRequest1(url: lyricsURL, completionHandler: { (jsonData, error) in
@@ -58,8 +55,6 @@ class ResultDetailsVC: UIViewController {
         })
         
     }
-    
-    
     
     func parseData(jsonData: [String: AnyObject]) {
         
@@ -79,17 +74,15 @@ class ResultDetailsVC: UIViewController {
         }
     }
     
-    
     @IBAction func goBackButtonPressed(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
     
-    
-    func modifyViewOfCompleteLyricsButton() {
+    func modifyViews() {
         getCompleteLyricsButton.layer.cornerRadius = 1.0
-        
+        albumImage.layer.cornerRadius = 8.0
+        albumImage.clipsToBounds = true
     }
-    
     
     @IBAction func getCompleteLyricsButtonPressed(_ sender: Any) {
         self.performSegue(withIdentifier: "ResultDetailsVCtoPlayerVC-Segue", sender: self)
@@ -103,9 +96,6 @@ class ResultDetailsVC: UIViewController {
             
             vc.theURL = self.theURL
             vc.lyricsExist = self.lyricsExist
-            
         }
     }
-    
-    
 }

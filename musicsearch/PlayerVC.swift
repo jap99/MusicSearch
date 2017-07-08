@@ -19,14 +19,11 @@ class PlayerVC: UIViewController, WKNavigationDelegate {
     var theURL = String()
     var lyricsExist = Bool()
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         loadingLabel.isHidden = false
     }
-    
     
     override func viewDidAppear(_ animated: Bool) {
         if lyricsExist {
@@ -42,8 +39,6 @@ class PlayerVC: UIViewController, WKNavigationDelegate {
         }
     }
     
-    
-    
     func getWebKitViewConfiguration() -> WKWebViewConfiguration {
         let webViewConfiguration: WKWebViewConfiguration = WKWebViewConfiguration()
         webViewConfiguration.allowsInlineMediaPlayback = true
@@ -52,11 +47,9 @@ class PlayerVC: UIViewController, WKNavigationDelegate {
         return webViewConfiguration
     }
     
-    
     @IBAction func goBackBtnPressed(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
-    
     
     func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
         UIApplication.shared.isNetworkActivityIndicatorVisible = true
@@ -70,8 +63,4 @@ class PlayerVC: UIViewController, WKNavigationDelegate {
         UIApplication.shared.isNetworkActivityIndicatorVisible = false
         
     }
-    
-    
-    
-    
 }

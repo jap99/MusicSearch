@@ -9,7 +9,6 @@
 import UIKit
 
 class RightToLeft_Segue: UIStoryboardSegue {
-
     
     override func perform() {
         let src = self.source
@@ -26,9 +25,6 @@ class RightToLeft_Segue: UIStoryboardSegue {
         },
                        completion: { finished in
                         src.present(dst, animated: false, completion: nil)
-        }
-        )
+        })
     }
-    
-    
 }

@@ -9,9 +9,7 @@
 import Foundation
 import Alamofire
 
-
 class DataManager {
-    
     
     class func makeRequest(url: String, completionHandler: @escaping (_ jsonData: [String: AnyObject]?, _ error: Error?) -> ()) {
        
@@ -36,10 +34,7 @@ class DataManager {
             }
         })
     }
-    
-    
-    
-    
+ 
     class func makeRequest1(url: String, completionHandler: @escaping (_ jsonData: [String: AnyObject]?, _ error: Error?) -> ()) {
         
         Alamofire.request(url, method: .get).responseString(completionHandler:  {

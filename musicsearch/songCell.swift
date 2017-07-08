@@ -9,7 +9,6 @@
 import UIKit
 
 class songCell: UITableViewCell {
-
     
     @IBOutlet weak var trackLabel: UILabel!
     @IBOutlet weak var artistLabel: UILabel!
@@ -21,11 +20,12 @@ class songCell: UITableViewCell {
     }
 
     func updateUI(result: Result) {
-        
-        self.trackLabel.text = result.song
-        self.artistLabel.text = result.artist
-        self.albumLabel.text = result.album
+        self.trackLabel.text = "Track: \(result.song)"
+        self.artistLabel.text = "Artist: \(result.artist)"
+        self.albumLabel.text = "Album: \(result.album)"
         self.cellImage.image = result.mainImage
+        
+        cellImage.layer.cornerRadius = 8.0
+        cellImage.clipsToBounds = true
     }
-
 }
